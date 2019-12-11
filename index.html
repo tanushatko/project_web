@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна</title>
+    <link rel="stylesheet" href="web/css/style.css">
+    <link rel="shortcut icon" href="web/img/favicon.png">
+</head>
+<body>
+   <header id="main" class="header">
+        <div class="header-content">
+           <h1 class="header-title">Петросаняк Тетана Петрівна</h1>
+           <p class="header-text">Варіант 18<br>Лабораторна робота №1<br>"Створення особистого сайту візитки"</p>
+        </div>
+        <div class="header-menu">
+            <a href="index.html" class="menu-logo">Tanushatko</a>
+            <nav class="header-nav">
+                <a class="menu-nav active" href="index.html">Головна</a>
+                <a class="menu-nav" href="resume.html">Резюме</a>
+                <a class="menu-nav" href="hobby.html">Захоплення</a>
+            </nav>
+        </div>
+   </header>
+    <section class="main-content">
+        <div class="wrapper">
+            <img class="main-img" src="web/img/me.jpg">
+            <p class="main-title">Привіт! Я Таня, студентка-магістр групи ІПм-19-1. Більше про мене у розділах "Резюме" та "Захоплення"</p>
+            <a class="main-but" href="resume.html">Моє резюме</a>
+        </div>
+    </section>
+   <footer class="footer">Copyright 2019. Tanushatko <p id="date"></p></footer>
+   <script>
+       document.getElementById("date").innerHTML = Date();
+   </script></footer>
+</body>
+</html>
